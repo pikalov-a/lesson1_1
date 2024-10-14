@@ -1,0 +1,5 @@
+sum_homeworks=12
+sum_all_time=1.5
+name_course="Python"
+middle_time=sum_all_time/sum_homeworks
+print("Курс: ",name_course,", всего задач: ",sum_homeworks,", затрачено часов: ",sum_all_time, ", среднее время выполнения: ",middle_time," часа.")
