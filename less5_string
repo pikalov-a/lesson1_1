@@ -1,0 +1,8 @@
+##индексация строк/работа со строками
+example="Бесконечность"
+print(example[0])
+print(example[-1])
+xlen_half=(len(example)-1)//2  ## тк начинаем с 0 и при нечет. из 13 7 символов
+print(example[xlen_half])
+print(example[::-1])
+print(example[1::2])
