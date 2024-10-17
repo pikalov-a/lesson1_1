@@ -1,0 +1,8 @@
+##Неизменяемые и изменяемые объекты. Списки. Кортежи module_1_5
+immutable_var= 1, 2, 3, True, 'string', "строка", 3.14159, 1+2j
+print(immutable_var)
+## закрыл решеткой следующую строку, т.к. при ошибке последующие строки НЕ воспринимаются
+#immutable_var[0]=1 #ERR / immutable_var[0]=1 / TypeError:'tuple' object does not support item assignment
+mutable_list=[4, 5, 6, False, "new string"]
+mutable_list[0]=0
+print(mutable_list)
