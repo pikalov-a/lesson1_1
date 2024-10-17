@@ -1,0 +1,17 @@
+##Словари и множества module_1_6
+#dictionary
+my_dict={'Andrew' : 1969 , 'Mary' : 1992, 'Igor' : 1987}
+print(my_dict)
+print(my_dict['Andrew'],'Year of birth Andrew')
+print(my_dict.get('Elizabeth', 'Year of birth not defined'))
+my_dict.update({'Vlad' : 2021 , 'Nikita' : 2023 })
+a=my_dict.pop('Andrew')
+print(a,'Deleted value')
+print(my_dict)
+#set
+my_set={1,1,2,3,4,2,3,True,False,3.14,"String",'String'}
+print(my_set)
+my_set.add(5)
+my_set.add(6.55)
+my_set.discard(1)
+print(my_set)
