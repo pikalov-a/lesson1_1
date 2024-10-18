@@ -1,0 +1,13 @@
+##Дополнительное практическое задание по модулю1 module_1_dop
+## в теории можно вводить с клавиатуры как учеников так и их оценки но в таком ключе задача не ставилась
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'} # Unsorted!!!
+students=sorted(students) # отсортировали по алфавиту
+## print(students,'')
+mid_={}
+i = 0
+while i < len(students):
+#    print(students[i],'сумма оценок',sum(grades[i]),"кол-во оценок",len(grades[i]), "средний балл", sum(grades[i])/len(grades[i]))
+    mid_[students[i]]=sum(grades[i])/len(grades[i])
+    i += 1
+print(mid_)
